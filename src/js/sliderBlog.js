@@ -17,7 +17,7 @@ next.addEventListener("click", event => {
 function sliderLeft() {
 	let sliderArr = document.querySelector('.slider_blog')
 	counter = counter - sliderArr.offsetWidth
-	if (counter === -(sliderArr.offsetWidth * 4)) {
+	if (counter === -(sliderArr.offsetWidth * 3)) {
 		counter = 0
 	}
 	slider.style.left = counter + 'px'
@@ -27,7 +27,7 @@ function sliderright() {
 	let sliderArr = document.querySelector('.slider_blog')
 	counter = counter + sliderArr.offsetWidth
 	if (counter > 0) {
-		counter = -(sliderArr.offsetWidth * 3)
+		counter = -(sliderArr.offsetWidth * 2)
 
 	}
 	slider.style.left = counter + 'px'

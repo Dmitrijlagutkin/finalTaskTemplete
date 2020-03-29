@@ -27,3 +27,5 @@ function main() {
 	acordion(1, 0, 2)
 	acordion(2, 1, 0)
 }
+
+main()
